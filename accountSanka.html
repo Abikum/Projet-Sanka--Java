@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<title>SANKA account creation</title>
+	<link rel="stylesheet" type="text/css" href="nice.css">
+	<link rel="stylesheet" type="text/css" href="coded.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.boostrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="eelogo.png" type="image/faveicon">
+</head>
+<body >
+	
+	<div class="dropdown">
+		<nav>
+			<img class="logo" src="log.png">
+			<ul>
+				<li class="active"><a href="indexSanka.html" title="welcome to Elifee"><i class="fa fa-home"></i>Home</a></li>
+				<li><a href="#" title="Be expectant">Client</a></li>
+				<li><a href="#"title="Be open!Dream big">Clinic</a></li>
+				<li><a href="#"title="Carry the vision">Hospital</a></li>
+				<li><a href="#"title="tell us then!!">Contacts</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="login">
+		<img src="img/now.jpg" class="avatar">
+		<h1>Create Account</h1>
+		<form action="entry_details.php" method="POST">
+			<p>first name</p>
+			<input type="text" name="first_name" placeholder="enter first name">
+			<p>second name</p>
+			<input type="text" name="second_name" placeholder="enter second name">
+			<p>mobile number</p>
+			<input type="text" name="phone" placeholder="enter phone number">
+			<p>email</p>
+			<input type="text" name="email" placeholder="enter your email">
+			<p>Gender :
+			 <table align="center">
+				<tr><td style="float: left;">Male</td>
+					<td><input type="radio" name="gender" value="male" ></td>
+					<td style="float:right;">Female</td>
+					<td><input type="radio" name="gender" value="female"></td>
+				</tr>
+			 </table>
+		    </p>
+			<hr>
+			<p>password</p>
+			<input type="password" name="password" placeholder="enter your password">
+			<p>confirm</p>
+			<input type="password" name="password" placeholder="confirm your password">
+
+			
+			
+			<input type="submit" name="save" value="submit"><br>
+			
+		</form>
+		
+	</div>
+	
+</body>
+</html>

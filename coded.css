@@ -1,0 +1,179 @@
+body {
+    background: #dedede;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown {
+    margin: 0 auto;
+}
+
+nav {
+    height: 60px;
+    background: #2c3e50;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.5);
+}
+
+.logo {
+    padding: 5px 0 0 80px;
+    width: 100px;
+    height: 55px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    color: magenta;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background: #243342;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+form {
+    text-align: center;
+    text-decoration: blink;
+    color: magenta;
+    font-family: sans-serif;
+    font: 40px;
+}
+
+.form-group {
+    font-family: cursive;
+    font-size: 25px;
+    color: magenta;
+    box-shadow: 50px;
+}
+
+.active {
+    background: #2bab0d;
+    border-radius: 100px;
+}
+
+img:hover {
+    font-size: 25px;
+    border-radius: 100%;
+    background-blend-mode: lighten;
+}
+
+button {
+    border-width: thick;
+    border-color: magenta;
+    background-color: gold;
+    padding: 0;
+    font-size: 20px;
+    text-align: justify-all;
+    font: 20px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.liste {
+    font-family: cursive;
+}
+
+#pop {
+    font-size: 20px;
+    font-display: unset;
+    text-align: 30px;
+    font-family: fantasy;
+    color: forestgreen;
+}
+
+.one {
+    margin: 0;
+    padding: 0;
+    text-align: justify-all;
+    font-size: 16px;
+}
+
+#top {
+    height: 50px;
+}
+
+.pic img {
+    width: 25px;
+    height: 24px;
+    border-radius: 100%;
+    padding: 0;
+}
+
+#foot {
+    position: fixed;
+    bottom: 0;
+    background-color: #2c3e50;
+    text-align: left;
+    width: 100%;
+    color: #dedede;
+    min-height: 1px;
+}
+
+marquee {
+    color: #2c3e50;
+    font-family: cursive;
+    animation: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.ownpic {
+    top: 60px;
+    padding-top: 10px;
+    padding-left: 95%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-width: 20px;
+}
+
+p {
+    color: white;
+}
+
+#two {
+    color: #2c3e50;
+    font-family: cursive;
+}
+
+.one {
+    color: #2c3e50;
+}
+
+#one {
+    color: #2c3e50;
+}
+
+#care {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration-color: #2c3e50;
+    border-width: 20px;
+    border-color: #2bab0d;
+    color: #000;
+}
